@@ -10,10 +10,11 @@ namespace CalculatorApp
             int nilai1, nilai2, menu;
             bool jwbn = false;
 
-            Console.WriteLine("*****Simple Calculator App***** \n");
-            Console.Write("Masukkan angka ke-1: ");
+            Console.WriteLine("*******Simple Calculator App*******");
+            Console.WriteLine("***********************************");
+            Console.Write("Masukkan angka ke-1 = ");
             nilai1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Masukkan angka ke-2: ");
+            Console.Write("Masukkan angka ke-2 = ");
             nilai2 = Convert.ToInt32(Console.ReadLine());
 
             do
@@ -22,11 +23,11 @@ namespace CalculatorApp
                 Console.WriteLine("Pilih Operasi Perhitungan:");
                 Console.WriteLine("1. Penambahan  (+)");
                 Console.WriteLine("2. Pengurangan (-)");
-                Console.WriteLine("3. Perklian    (*)");
-                Console.WriteLine("4. Pembagian   (:)");
-                Console.WriteLine("------------------------------\n");
+                Console.WriteLine("3. Perkalian    (*)");
+                Console.WriteLine("4. Pembagian   (/)");
+                Console.WriteLine("------------------------------");
 
-                Console.Write("Masukkan menu operasi perhitungan yang dipilih: ");
+                Console.Write("Masukkan menu operasi perhitungan (1-4) = ");
                 menu = Convert.ToInt32(Console.ReadLine());
 
                 if (menu == 1 || menu == 2 || menu == 3 || menu == 4)
@@ -35,22 +36,22 @@ namespace CalculatorApp
                     switch (menu)
                     {
                         case 1:
-                            Console.WriteLine("Hasil dari " + nilai1 + " + " + nilai2 + " = " + tambah(nilai1, nilai2));
+                            Console.WriteLine("\nHasil dari " + nilai1 + " + " + nilai2 + " adalah = " + tambah(nilai1, nilai2));
                             break;
                         case 2:
-                            Console.WriteLine("Hasil dari " + nilai1 + " - " + nilai2 + " = " + kurang(nilai1, nilai2));
+                            Console.WriteLine("\nHasil dari " + nilai1 + " - " + nilai2 + " adalah = " + kurang(nilai1, nilai2));
                             break;
                         case 3:
-                            Console.WriteLine("Hasil dari " + nilai1 + " * " + nilai2 + " = " + kali(nilai1, nilai2));
+                            Console.WriteLine("\nHasil dari " + nilai1 + " * " + nilai2 + " adalah = " + kali(nilai1, nilai2));
                             break;
                         case 4:
-                            Console.WriteLine("Hasil dari " + nilai1 + " / " + nilai2 + " = " + bagi(nilai1, nilai2));
+                            Console.WriteLine("\nHasil dari " + nilai1 + " / " + nilai2 + " adalah = " + bagi(nilai1, nilai2));
                             break;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("\nInput tidak valid. Masukkan Menu antara 1-4");
+                    Console.WriteLine("\nInput tidak valid. Masukkan Menu antara 1-4.");
                 }
             }
             while (jwbn == false);
