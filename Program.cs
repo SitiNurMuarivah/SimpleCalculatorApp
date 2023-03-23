@@ -1,4 +1,9 @@
-﻿using System;
+﻿/* Technical Assignment Skilvul - Game Development
+Create a Simple Calculator App
+Siti Nur mu'arivah_Kelompok 4
+*/
+
+using System;
 namespace CalculatorApp
 {
     class Calculator
@@ -26,7 +31,7 @@ namespace CalculatorApp
                     Console.WriteLine("Pilih Operasi Perhitungan:");
                     Console.WriteLine("1. Penambahan  (+)");
                     Console.WriteLine("2. Pengurangan (-)");
-                    Console.WriteLine("3. Perkalian    (*)");
+                    Console.WriteLine("3. Perkalian   (*)");
                     Console.WriteLine("4. Pembagian   (/)");
                     Console.WriteLine("------------------------------");
 
