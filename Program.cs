@@ -1,6 +1,6 @@
 ﻿/* Technical Assignment Skilvul - Game Development
 Create a Simple Calculator App
-Siti Nur mu'arivah_Kelompok 4
+Siti Nur Mu'arivah_Kelompok 4
 */
 
 using System;
@@ -59,7 +59,7 @@ namespace CalculatorApp
                     }
                     else
                     {
-                        Console.WriteLine("\nInput tidak valid. Masukkan Menu antara 1-4.");
+                        Console.WriteLine("\nMohon masukkan menu yang tersedia (1-4).");
                     }
                 }
                 while (jwbn == false);
