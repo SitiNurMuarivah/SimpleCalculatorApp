@@ -1,6 +1,8 @@
 ﻿/* Technical Assignment Skilvul - Game Development
 Create a Simple Calculator App
-Siti Nur Mu'arivah_Kelompok 4
+Nama    : Siti Nur Mu'arivah
+Group   : Kelompok 4
+Mentor  : M. Arief Ismirianda
 */
 
 using System;
@@ -18,8 +20,8 @@ namespace CalculatorApp
             do
             {
                 Console.Clear();
-                Console.WriteLine("*******Simple Calculator App*******");
-                Console.WriteLine("***********************************");
+                Console.WriteLine("***********Simple Calculator App***********");
+                Console.WriteLine("*******************************************");
                 Console.Write("Masukkan angka ke-1 = ");
                 nilai1 = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Masukkan angka ke-2 = ");

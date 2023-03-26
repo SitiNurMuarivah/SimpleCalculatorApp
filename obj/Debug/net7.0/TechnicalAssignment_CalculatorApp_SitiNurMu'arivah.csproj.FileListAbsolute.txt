@@ -1,0 +1,15 @@
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\bin\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.exe
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\bin\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.deps.json
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\bin\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.runtimeconfig.json
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\bin\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.dll
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\bin\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.pdb
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.csproj.AssemblyReference.cache
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.GeneratedMSBuildEditorConfig.editorconfig
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.AssemblyInfoInputs.cache
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.AssemblyInfo.cs
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.csproj.CoreCompileInputs.cache
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.dll
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\refint\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.dll
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.pdb
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.genruntimeconfig.cache
+G:\MSIB\TA_CalculatorApp_Siti Nur Mu'arivah\SimpleCalculatorApp\obj\Debug\net7.0\ref\TechnicalAssignment_CalculatorApp_SitiNurMu'arivah.dll
