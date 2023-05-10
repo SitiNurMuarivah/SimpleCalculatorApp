@@ -55,7 +55,14 @@ namespace CalculatorApp
                                 Console.WriteLine("\nHasil dari " + nilai1 + " * " + nilai2 + " adalah = " + kali(nilai1, nilai2));
                                 break;
                             case 4:
-                                Console.WriteLine("\nHasil dari " + nilai1 + " / " + nilai2 + " adalah = " + bagi(nilai1, nilai2));
+                                if (nilai2 == 0)
+                                {
+                                    Console.WriteLine("\nError: Pembagian dengan nol tidak dapat dilakukan");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("\nHasil dari " + nilai1 + " / " + nilai2 + " adalah = " + bagi(nilai1, nilai2));
+                                }
                                 break;
                         }
                     }
@@ -85,7 +92,7 @@ namespace CalculatorApp
         {
             return nilai1 * nilai2;
         }
-        public static int bagi(int nilai1, int nilai2)
+        public static double bagi(float nilai1, float nilai2)
         {
             return nilai1 / nilai2;
         }
