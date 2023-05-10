@@ -78,6 +78,9 @@ namespace CalculatorApp
             }
             while (input == "y" || input == "Y");
             Console.WriteLine("\nSampai Jumpa Kembali.");
+
+            Console.WriteLine("\nTekan tombol apa saja untuk keluar program...");
+            Console.ReadKey();
         }
 
         public static int tambah(int nilai1, int nilai2)
