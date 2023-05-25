@@ -14,7 +14,8 @@ namespace CalculatorApp
         {
             string? input = string.Empty;
             string? pilih = string.Empty;
-            int nilai1, nilai2, menu;
+            float nilai1, nilai2;
+            int menu;
             bool jwbn = false;
 
             do
@@ -23,9 +24,9 @@ namespace CalculatorApp
                 Console.WriteLine("***********Simple Calculator App***********");
                 Console.WriteLine("*******************************************");
                 Console.Write("Masukkan angka ke-1 = ");
-                nilai1 = Convert.ToInt32(Console.ReadLine());
+                nilai1 = Convert.ToSingle(Console.ReadLine());
                 Console.Write("Masukkan angka ke-2 = ");
-                nilai2 = Convert.ToInt32(Console.ReadLine());
+                nilai2 = Convert.ToSingle(Console.ReadLine());
 
                 do
                 {
@@ -83,19 +84,19 @@ namespace CalculatorApp
             Console.ReadKey();
         }
 
-        public static int tambah(int nilai1, int nilai2)
+        public static float tambah(float nilai1, float nilai2)
         {
             return nilai1 + nilai2;
         }
-        public static int kurang(int nilai1, int nilai2)
+        public static float kurang(float nilai1, float nilai2)
         {
             return nilai1 - nilai2;
         }
-        public static int kali(int nilai1, int nilai2)
+        public static float kali(float nilai1, float nilai2)
         {
             return nilai1 * nilai2;
         }
-        public static double bagi(float nilai1, float nilai2)
+        public static float bagi(float nilai1, float nilai2)
         {
             return nilai1 / nilai2;
         }
